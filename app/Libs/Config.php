@@ -1,16 +1,15 @@
 <?php
 
-namespace Core;
-use App\Libs\DB;
+namespace App\Libs;
+
 /**
  * Application configuration
  *
- * PHP version 5.4
+ * PHP version 7.4
  */
 class Config
 {
 
-    private $activeTheme;
     /**
      * Database host
      * @var string
@@ -37,16 +36,8 @@ class Config
 
     /**
      * Show or hide error messages on screen
-     * @var boolean
+     * @var string this is theme root DIR
      */
-    const SHOW_ERRORS = true;    
-    
-    /**
-     * Theme directory and name space
-     * @var boolean
-     */
-    // const THEME_ROOT = file_build_path("app", "Themes");
-
-
+    const THEME_ROOT = file_build_path("app", "Themes",THEME);
 
 }

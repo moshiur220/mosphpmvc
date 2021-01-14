@@ -9,7 +9,7 @@ use \Core\View;
  *
  * PHP version 5.4
  */
-class Home extends \Core\Controller
+class Homes extends \Core\Controller
 {
     private $myget;
 
