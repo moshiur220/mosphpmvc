@@ -1,7 +1,5 @@
-echo "# mosphpmvc" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:moshiur220/mosphpmvc.git
-git push -u origin main
+# mosphpmvc
+mosphpmvc is a custom development framework for PHP which uses commonly known design patterns like Associative Data Mapping, Front Controller, and MVC.It is provide a structured framework .
+# Installing Composer
+import mos.sql file in mysql database
+change database name .env file and run the applications
